@@ -133,6 +133,19 @@ h1 {
 }
 
 #img {
+  border: 5px solid #a02571;
+  height: 80px;
+  display: inline-block;
+}
+
+#img img {
+  width: 70px;
+  padding: 3px;
+  box-sizing: border-box;
+  border: 5px solid #0196ba;
+}
+
+#img {
   float: left;
   margin-right: 10px;
 }
@@ -303,19 +316,6 @@ footer a {
     position: absolute;
     top: 88%;
     left: 0;
-  }
-
-  #img {
-    border: 5px solid #a02571;
-    height: 80px;
-    display: inline-block;
-  }
-
-  #img img {
-    width: 70px;
-    padding: 3px;
-    box-sizing: border-box;
-    border: 5px solid #0196ba;
   }
 
   h2 {
